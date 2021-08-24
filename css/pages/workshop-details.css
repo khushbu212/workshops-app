@@ -1,0 +1,147 @@
+
+.workshop-details{
+    margin: 100px 0;
+}
+
+.worshop-details-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.workshop-img{
+    flex-basis: 100%;
+    padding: 20px;
+}
+
+.worshop-details-content{
+    flex-basis: 100%;
+    padding: 20px;
+}
+
+.img-wrapper , .img-wrapper img{
+    width: 100%;
+}
+
+.specifics{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.specifics-group{
+    flex-basis: 100%;
+}
+
+@media (min-width: 768px) {
+    .specifics{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .specifics-group{
+        flex-basis: 50%;
+    }
+    
+    .workshop-img{
+        flex-basis: 33%;
+        padding: 20px 20px 20px 0;
+    }
+    
+    .worshop-details-content{
+        flex-basis: 66%;
+        padding: 20px 0 20px 20px;
+    }
+}
+
+
+.workshop-details-sessions h2{
+    display:block;
+}
+.workshop-details-sessions button{
+    font-size: 0.6em;
+    color: white;
+    border-radius: 2px;
+    background-color: #007bff;
+    padding :8px 15px;
+    float: right;
+    border : none;
+}
+
+.workshop-details-sessions-list input{
+    width: 100%;
+    margin: 20px 0 10px 0;
+    height: 40px;
+    outline: none;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    
+}
+
+.workshop-details-sessions-list input:focus{
+    outline: none;
+    border: 2px solid #ced4da;
+    border-radius: .25rem;
+}   
+
+
+.sessions-list-item{
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+    margin-top: -1px;
+}
+
+.session-vote{
+    flex-basis: 15%;
+    margin: 10px 20px;
+}
+
+.session-vote p{
+    text-align: center;
+    
+}
+
+.session-vote p i{
+    font-size: 2em;
+    color: gray;
+    
+}
+
+.session-details{
+    margin: 10px 20px;
+    flex-basis: 85%;
+}
+
+.session-details-heading{
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 10px 0 5px 0;
+}
+
+.session-details-author{
+    font-weight: 600;
+    margin: 5px 0 1em 0;
+}
+
+.session-details-type{
+    font-size: 0.8em;
+    font-weight: 600;
+    
+    padding: 3px 5px;
+    border-radius: 2px;
+
+}
+
+.basic{
+    color: white;
+    background-color: #007bff;
+}
+.intermediate{
+    color: white;
+    background-color: #17a2b8;
+}
+.advanced{
+    color: #212529;
+    background-color: #ffc107;
+}

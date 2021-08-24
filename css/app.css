@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+}
+
+
+.my-sm {
+    margin-top: 0.8em;
+    margin-top: 0.8em;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid lightgray;
+}
